@@ -1,3 +1,35 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.onepcssgrid-1000{
+}
+
+
+body{
+  background-image:url('stripe.svg');
+  font-size: 16px;
+}
+
+header{
+    margin-top: 1em;
+  h1{
+    display: inline-block;
+    font-family: 'raleway', sans;
+    font-size: 5em;
+  }
+
+}
+
+nav{
+  li{
+    display: inline;
+    text-align: center;
+    
+    &:first-of-type{
+      text-align: right;
+    }
+    &:last-of-type{
+      text-align: left;
+    }
+  }
+  font-family: 'opensans';
+  font-weight: 600;
+}
+

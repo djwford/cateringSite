@@ -12,4 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require jquery.ui.all
+//= require jquery.ui.rcarousel.min.js
+//= require jquery.ui.widget.js
+//= require home.js
+

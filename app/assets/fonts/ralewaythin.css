@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'RalewayThin';
+    src: url('ralewaythin.eot');
+    src: url('ralewaythin.eot') format('embedded-opentype'),
+         url('ralewaythin.woff') format('woff'),
+         url('ralewaythin.ttf') format('truetype'),
+         url('ralewaythin.svg#RalewayThin') format('svg');
+}

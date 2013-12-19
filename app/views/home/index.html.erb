@@ -1,2 +1,45 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div id="main_wrapper" class="onepcssgrid-1000">
+  <header class="onerow col4 offset5">
+    <h1 class="last"><span id="sabor">Sabor</span><br /><span id="latino">Latino</span></h1>
+  </header>
+
+  <nav class="onerow col12">
+    <ul>
+      <li class="col3">       Gallery    </li>
+      <li class="col3">       About      </li>
+      <li class="col3">       Contact    </li>
+      <li class="col3 last">  Menu       </li>
+    </ul>
+  </nav>
+
+  <div class="page_container" id="main_container">
+    <div id="carousel">
+  
+        <%= image_tag('image1.jpg', :class => "food_carousel") %>
+        <%= image_tag('image2.jpg', :class => "food_carousel") %>
+        <%= image_tag('image3.jpg', :class => "food_carousel") %>
+        <%= image_tag('image4.jpg', :class => "food_carousel") %>
+        <%= image_tag('image5.jpg', :class => "food_carousel") %>
+        <%= image_tag('image6.jpg', :class => "food_carousel") %>
+      
+    </div>
+  </div>
+  </div>
+
+  <div class="page_container" id="gallery_container">
+  </div>
+
+  <div class="page_container" id="about_container">
+  </div>
+
+  <div class="page_container" id="contact_container">
+  </div>
+
+  <div class="page_container" id="menu_container">
+  </div>
+
+  <div class="page_container" id="blog_container">
+  </div>
+
+
+</div>
