@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+    redirect_to "home#index"
   end
 
   def about
