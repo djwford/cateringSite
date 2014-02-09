@@ -17,3 +17,6 @@
  *= require tables.css.scss
  *= require simple_flex_grid.css
  */
+
+
+.hidden { display: none; }

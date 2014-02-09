@@ -13,6 +13,8 @@ gem 'figaro'
 gem 'pg'
 gem 'simple_form'
 gem 'rails_12factor', group: :production
+gem "mail_form"
+gem "haml"
 
 group :development do
   gem 'better_errors'
@@ -34,3 +36,5 @@ group :test do
   gem 'minitest-spec-rails'
   gem 'minitest-wscolor'
 end
+
+
