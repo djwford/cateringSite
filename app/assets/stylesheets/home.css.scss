@@ -8,7 +8,10 @@ body{
 }
 
 header{
-    margin-top: 1em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+
   h1{
     display: inline-block;
     font-family: 'raleway', sans;
@@ -18,18 +21,22 @@ header{
 }
 
 nav{
+  margin-bottom: 5%;
+
+  a{
+    font-family: raleway, sans;
+    text-decoration: none;
+    color: white;
+  }
   li{
+    font-size: 1em;
     display: inline;
     text-align: center;
-    
-    &:first-of-type{
-      text-align: right;
-    }
-    &:last-of-type{
-      text-align: left;
-    }
+    background-color: #33332D;
+    height: 2em;
+    padding-top: 0.2em;
   }
-  font-family: 'opensans';
-  font-weight: 600;
 }
 
+#carousel{
+}

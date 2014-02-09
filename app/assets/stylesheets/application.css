@@ -12,7 +12,8 @@
  *= require reset.css
  *= require fonts.css.scss
  *= require onepcssgrid.css
- *= require rcarousel.css
  *= require jquery.ui.all
  *= require home.css.scss
+ *= require tables.css.scss
+ *= require simple_flex_grid.css
  */

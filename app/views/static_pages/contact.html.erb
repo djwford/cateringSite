@@ -1,2 +1,22 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<div id="new_form">
+  <%= form_for @form do |f| %>
+    <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+    </div>
+
+    <div class="field">
+      <%= f.label :message %>
+      <%= f.text_area :message %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit I18n.t(".contact_form.views.forms.new.send") %>
+    </div>
+  <% end %>
+</div>

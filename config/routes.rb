@@ -10,4 +10,6 @@ CateringSite::Application.routes.draw do
   root :to => "home#index"
   devise_for :users
   
+  mount ContactForm::Engine => "static_pages/contact", :as => :contact_form
+
 end

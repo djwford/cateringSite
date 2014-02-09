@@ -4,13 +4,20 @@
   <title>CateringSite</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
-
-
-
-
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header class="row">
+    <h1>Catering by Miguel</h1>
+  </header>
+
+  <nav class="row span9 offset3">
+    <ul>
+      <li class="span3"> <%= link_to 'Menu', static_pages_menu_path       %> </li>
+      <li class="span3"> <%= link_to 'About', static_pages_about_path     %> </li>
+      <li class="span3"> <%= link_to 'Contact', static_pages_contact_path %> </li>
+    </ul>
+  </nav>
 
 <%= yield %>
 
